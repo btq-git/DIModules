@@ -1,0 +1,14 @@
+/*
+/*/
+
+!.gitignore
+!.editorconfig
+
+!/ProjectSettings/
+
+!/Assets/
+/Assets/~Unversioned/
+
+!/Packages
+/Packages/nuget-packages/InstalledPackages
+/Packages/nuget-packages/InstalledPackages.meta
