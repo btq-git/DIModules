@@ -2,8 +2,8 @@
     "name": "BTQ.Core",
     "rootNamespace": "BTQ",
     "references": [
-        "VContainer",
-        "UniTask"
+        "UniTask",
+        "Reflex"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
