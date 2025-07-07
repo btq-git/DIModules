@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5036803990396081092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe05377904041b99ade57495166d267, type: 3}
+  m_Name: FadeViewTransition
+  m_EditorClassIdentifier: 
+  duration: 0.2
+  ease: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9a26adafc14894979744ce296f2ada, type: 3}
+  m_Name: New UI Module Config
+  m_EditorClassIdentifier: 
+  defaultTransition: {fileID: -5036803990396081092}
+  canvas: {fileID: 6389499862945080281, guid: 24eb16ff12fbb1f42a21fdbb31dc1672, type: 3}
+  views:
+  - {fileID: 6566927288363982409, guid: b6f640d3f802fe843b72503a6e8ab118, type: 3}
+  dynamicallyCreatedViews: []

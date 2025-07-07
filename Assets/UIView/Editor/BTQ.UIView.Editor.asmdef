@@ -1,0 +1,20 @@
+{
+    "name": "BTQ.UIView.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de3cef61646343441b91bded11605931",
+        "GUID:1ac385e6ca079dc4aa2183e6a772a4e3",
+        "GUID:902ada9efaf1b42468a45e6e80fd7920"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

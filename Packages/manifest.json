@@ -1,20 +1,36 @@
 {
   "scopedRegistries": [
     {
-      "name": "package.openupm.com",
+      "name": "OpenUPM",
       "url": "https://package.openupm.com",
       "scopes": [
-        "jp.hadashikick.vcontainer"
+        "jp.hadashikick.vcontainer",
+        "com.kylewbanks.scenerefattribute"
       ]
+    },
+    {
+      "name": "npm",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.kyrylokuzyk"
+      ],
+      "overrideBuiltIns": true
     }
   ],
   "dependencies": {
+    "com.annulusgames.lit-motion": "https://github.com/annulusgames/LitMotion.git?path=src/LitMotion/Assets/LitMotion",
+    "com.cysharp.csprojmodifier": "https://github.com/Cysharp/CsprojModifier.git?path=src/CsprojModifier/Assets/CsprojModifier",
+    "com.cysharp.memorypack": "https://github.com/Cysharp/MemoryPack.git?path=src/MemoryPack.Unity/Assets/MemoryPack.Unity",
+    "com.cysharp.messagepipe": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.cysharp.zlinq": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
+    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+    "com.gustavopsantos.reflex": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex",
+    "com.kylewbanks.scenerefattribute": "0.13.0",
     "com.unity.ide.rider": "3.0.36",
     "com.unity.inputsystem": "1.14.0",
     "com.unity.test-framework": "1.5.1",
     "com.unity.ugui": "2.0.0",
-    "jp.hadashikick.vcontainer": "1.16.9",
     "com.unity.modules.assetbundle": "1.0.0",
     "com.unity.modules.imgui": "1.0.0",
     "com.unity.modules.jsonserialize": "1.0.0",
