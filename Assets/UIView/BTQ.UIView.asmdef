@@ -4,9 +4,7 @@
     "references": [
         "BTQ.Core",
         "Reflex",
-        "UniTask",
-        "LitMotion",
-        "LitMotion.Extensions"
+        "UniTask"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
